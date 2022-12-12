@@ -13,5 +13,4 @@ def Quarter(x):
         print('Диапазон x<0; y<0')
     elif num == 4:
         print('Диапазон x>0; y<0')
-
 Quarter(num)
