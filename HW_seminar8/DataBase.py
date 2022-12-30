@@ -7,7 +7,7 @@ def save_db(path, data):
 
 
 def load_db(path):
-    with open(path, 'r') as f:
+    with open(path,'r') as f:
         try:
             return json.load(f)
         except ValueError:
